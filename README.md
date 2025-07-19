@@ -25,6 +25,7 @@ See below for a summary of recent changes and improvements:
 - Changed sequence length T from 1024 to 2048 in train_gpt2.py.
 - Changed micro batch size B from 64 to 8 in train_gpt2.py.
 - Removed input.txt as part of project cleanup (no longer needed).
+- Added a requirements.txt file 
 ```
 
 ## Usage
