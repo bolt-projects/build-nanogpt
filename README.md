@@ -38,6 +38,9 @@ See below for a summary of recent changes and improvements:
 
 - **Original nanoGPT repo and author:** Andrej Karpathy ([nanoGPT](https://github.com/karpathy/nanoGPT)) for the foundational code and educational resources.
 - **OpenAI:** For the [tiktoken](https://github.com/openai/tiktoken) tokenizer and the o200k_base vocabulary.
+- **Runpod** For the GPU compute for training the base model.
+- **Huggingface** For hosting the datasets, models and tokenizers.
+- **GitHub** For hosting the source code and open source files for this project.
 
 ## License
 
