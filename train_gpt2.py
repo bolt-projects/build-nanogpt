@@ -71,7 +71,7 @@ class Block(nn.Module):
 @dataclass
 class GPTConfig:
     block_size: int = 2048 # max sequence length
-    vocab_size: int = vocab_size # dynamically set from tokenizer
+    vocab_size: int = 200000 # dynamically set from tokenizer
     n_layer: int = 12 # number of layers
     n_head: int = 12 # number of heads
     n_embd: int = 768 # embedding dimension
