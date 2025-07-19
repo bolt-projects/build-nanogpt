@@ -59,7 +59,8 @@ hellaswags = {
     "test": "https://raw.githubusercontent.com/rowanz/hellaswag/master/data/hellaswag_test.jsonl",
 }
 
-enc = tiktoken.get_encoding("gpt2")
+enc = tiktoken.get_encoding("o200k_base")
+vocab_size = enc.n_vocab
 
 def download(split):
     """Downloads HellaSwag DATA_CACHE_DIR"""
